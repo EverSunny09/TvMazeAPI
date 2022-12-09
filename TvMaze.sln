@@ -3,13 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33122.133
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TvMaze", "TvMaze\TvMaze.csproj", "{F14AE247-FDC0-44B8-B76A-9BC7107DC48A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TvMaze", "TvMaze\TvMaze.csproj", "{F14AE247-FDC0-44B8-B76A-9BC7107DC48A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TvMaze.Domain", "TvMaze.Domain\TvMaze.Domain.csproj", "{8A1D26C8-BADF-4342-96EB-82F8205A26C0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TvMaze.Domain", "TvMaze.Domain\TvMaze.Domain.csproj", "{8A1D26C8-BADF-4342-96EB-82F8205A26C0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TvMaze.Models", "TvMaze.Models\TvMaze.Models.csproj", "{68FC2E01-B5C9-458D-8499-D7EBF3DCF45A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TvMaze.Models", "TvMaze.Models\TvMaze.Models.csproj", "{68FC2E01-B5C9-458D-8499-D7EBF3DCF45A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TvMaze.Repositories", "Repositories\TvMaze.Repositories.csproj", "{26DCA9C3-878D-42DF-8808-C4888DA86DFF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TvMaze.Repositories", "Repositories\TvMaze.Repositories.csproj", "{26DCA9C3-878D-42DF-8808-C4888DA86DFF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NewFolder1", "NewFolder1", "{63C2437F-A315-4FCE-8CF4-0F2E3322E842}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

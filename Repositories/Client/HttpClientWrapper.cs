@@ -1,11 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Net.Http;
-using System.Text;
-using System.Threading.Tasks;
-using TvMaze.Repositories.Client.Interfaces;
-using Newtonsoft.Json;
+﻿using TvMaze.Repositories.Client.Interfaces;
 
 namespace TvMaze.Repositories.Client
 {

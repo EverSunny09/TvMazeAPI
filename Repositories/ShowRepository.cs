@@ -1,7 +1,5 @@
-﻿using Microsoft.Extensions.Configuration;
-using Newtonsoft.Json;
+﻿using Newtonsoft.Json;
 using TvMaze.Models;
-using TvMaze.Models.Interfaces;
 using TvMaze.Repositories.Client.Interfaces;
 using TvMaze.Repositories.Interfaces;
 

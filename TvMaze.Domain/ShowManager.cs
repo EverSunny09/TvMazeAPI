@@ -17,13 +17,8 @@ namespace TvMaze.Domain
         }
         public async Task<Root> ShowResult(string searchShow)
         {
-            var path = GetPath(searchShow);
+            var path = _generalConfiguration.WebApiUrl + searchShow + _generalConfiguration.WebApiUrlEpisodes;
             return await _showRepository.GetShowResultsAsync(path);
-        }
-
-        private string GetPath(string searchShow) {
-            string url = _generalConfiguration.WebApiUrl + searchShow + _generalConfiguration.WebApiUrlEpisodes;
-            return url;
         }
 
     }

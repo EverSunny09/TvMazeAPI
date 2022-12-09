@@ -18,10 +18,10 @@ namespace TvMaze
         }
         private static void RegisterDomainLogic(IServiceCollection services)
         {
-            services.AddSingleton<IShowManager, ShowManager>();
+            services.AddTransient<IShowManager, ShowManager>();
             services.AddSingleton<IGeneralConfiguration, GeneralConfiguration>();
             services.AddHttpClient<IHttpClientWrapper, HttpClientWrapper>();
-            services.AddSingleton<IShowRepository, ShowRepository>();
+            services.AddTransient<IShowRepository,ShowRepository>();
         }
 
     }

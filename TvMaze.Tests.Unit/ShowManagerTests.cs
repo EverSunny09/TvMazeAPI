@@ -12,19 +12,15 @@ namespace TvMaze.Tests.Unit
     [TestFixture]
     public class ShowManagerTests
     {
-        private Fixture _fixture;
         private Mock<IGeneralConfiguration> _generalConfigurationMock;
         private Mock<IShowRepository> _showRepositoryMock;
-        private Mock<IHttpClientWrapper> _httpClientWrapper;
         private IShowManager _showManager;
 
         [SetUp]
         public void Setup() 
         {
-            _fixture = new Fixture();
             _generalConfigurationMock = new Mock<IGeneralConfiguration>();
             _showRepositoryMock = new Mock<IShowRepository>();
-            _httpClientWrapper = new Mock<IHttpClientWrapper>();
             _showManager = new ShowManager(_showRepositoryMock.Object, _generalConfigurationMock.Object);
         }
 

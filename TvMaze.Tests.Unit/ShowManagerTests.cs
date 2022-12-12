@@ -1,10 +1,7 @@
-﻿using AutoFixture;
-using Moq;
+﻿using Moq;
 using TvMaze.Domain;
 using TvMaze.Domain.Interfaces;
 using TvMaze.Models.Interfaces;
-using TvMaze.Repositories.Client;
-using TvMaze.Repositories.Client.Interfaces;
 using TvMaze.Repositories.Interfaces;
 
 namespace TvMaze.Tests.Unit
